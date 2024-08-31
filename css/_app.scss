@@ -1,3 +1,39 @@
+:root{
+	// Cette palette de couleur provient de l'image officielle de Zoé dans son skin de base 
+	// URL : https://vignette.wikia.nocookie.net/leagueoflegends/images/5/57/Zoe_OriginalSkin.jpg/revision/latest?cb=20181021025332
+	--violet-web-color: #FB83E9ff;
+	--tekhelet: #411F98ff;
+	--prussian-blue: #1B314Fff;
+	--brown-sugar: #C96D46ff;
+	--melon: #EEA19Bff;
+}
+
 #app {
 	padding: 1em;
+}
+
+body{
+	background-color: var(--tekhelet)
+}
+table{
+	border: 3px solid var(--violet-web-color)
+}
+
+td{
+	font-size: 1.5rem;
+	color:var(--melon);
+	padding: 1em;
+	border: 1px dashed var(--melon);
+	background-color: var(--prussian-blue);
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+th{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: var(--brown-sugar);
+	font-size:3rem;
+	padding:0.5em;
+	border: 3px solid var(--brown-sugar);
+	background-color: var(--prussian-blue);
 }
